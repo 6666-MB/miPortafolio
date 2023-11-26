@@ -1,0 +1,154 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB; /* Fondo celeste para toda la página */
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    background-color: #87CEEB; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ff69b4;
+}
+
+main {
+    position: relative; /* Añadido para que las secciones puedan superponerse al fondo */
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Fondo blanco para las secciones internas */
+    
+}
+
+.about {
+    background-color: #87CEEB;  /* Fondo de la sección "Acerca de" */
+}
+
+.skills,
+.projects {
+    background-color: #d9ffd9; /* Fondo de las secciones "Habilidades" y "Proyectos" */
+    margin: 0 auto; /* Centra las secciones "Habilidades" y "Proyectos" */
+    max-width: 300px; /* Ajusta el ancho máximo según tus preferencias */
+    margin-bottom: 30px; /* Ajusta el margen inferior según tus preferencias */
+    padding: 20px; /* Ajusta el relleno interno según tus preferencias */
+    text-align: center; /* Centra el contenido en las secciones "Habilidades" y "Proyectos" */
+}
+
+.skills ul,
+.projects ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills li,
+.projects li {
+    margin-bottom: 10px;
+}
+
+.skills li:last-child,
+.projects li:last-child {
+    margin-bottom: 0;
+}
+
+.contact {
+    background-color: #e6e6e6; /* Fondo de la sección "Contacto" */
+    margin: 0 auto; /* Centra el contenido en la sección de contacto */
+    max-width: 1200px; /* Ajusta el ancho máximo según tus preferencias */
+    padding: 40px; /* Ajusta el relleno interno según tus preferencias */
+    text-align: center; /* Centra el contenido en la sección de contacto */
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+
+img {
+    width: 50%; /* Ancho de la imagen */
+    height: 50%;
+    margin-bottom: 10px; 
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact label {
+    margin-bottom: 10px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
