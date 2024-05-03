@@ -91,11 +91,15 @@ h2 {
     font-size: 24px;
     margin-top: 0;
 }
+/* imagen de perfil */
 img {
-    width: 20%; /* Ancho de la imagen */
-    height: 20%;
-    margin-bottom: 10px; 
-    border-radius: 50%;
+    position: absolute; 
+    right: 150px; 
+    top: 15%; 
+    transform: translateY(-48%); 
+    width: 15%; /* Ancho de la imagen */
+    margin-bottom: 10px;
+    border-radius: 100%;
 }
 /*icono de instagram, wpp, github*/
 footer {
@@ -112,7 +116,7 @@ footer {
     margin-top: 10px; /* Ajusta el margen superior según sea necesario */
 }
 .social-links a {
-    margin-right: 20px; /* Ajusta el margen derecho entre los iconos */
+    margin-right: 10px; /* Ajusta el margen derecho entre los iconos */
 }
 .social-links img {
     width: 30px; /* Ajusta el tamaño según sea necesario */
